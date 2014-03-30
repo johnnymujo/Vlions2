@@ -1,3 +1,112 @@
+/* Begin Css coding*/
+.Backborder{
+            margin: 0 auto;
+            background: #BBFFFF;
+            width: 960px;
+            height: 960px;  
+            -webkit-border-top-left-radius: 100px;
+            -moz-border-radius-topleft: 100px;
+            border-top-left-radius: 100px;
+ }
+#header_1{
+        margin-right:auto;
+        color: #63B8FF;
+        
+ }
+
+/*Begin Menu bar css*/
+#nav-menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#nav-menu li {
+    float: left;
+    margin: 0 0;
+    position:relative;
+}
+#nav-menu ul li a {
+    background-image:url(http://img411.imageshack.us/img411/9527/backdr.png);
+    color:#FFF;
+    height: 33px;
+    line-height: 2em;
+    float: left;
+    width: 144px;
+    display: block;
+    text-align:center;
+    border:2px solid #000;
+    border-right:none;
+    text-decoration:none;
+    transition:background-position .25s ease;
+    -webkit-transition:background-position .25s ease;
+    -moz-transition:background-position .25s ease;
+}
+#nav-menu ul li a:hover {
+    color:#FFF;
+    background-position:-144px;
+    transition:background-position .25s ease;
+    -webkit-transition:background-position .25s ease;
+    -moz-transition:background-position .25s ease;
+}
+#nav-menu {
+    display:inline-block;
+}
+#header {
+    width:100%;
+    text-align:center;
+}
+#last-item {
+    border-right:4px solid #000;
+}
+#nav-menu li>ul {
+    display:none;
+    position:absolute;
+    top:37px;
+    left:100% padding:0;
+    border-right:4px solid #000;
+}
+#nav-menu ul li:hover > ul {
+    display: block;
+    box-shadow: 0px 0px 5px #000;
+    -moz-box-shadow: 0px 0px 5px #000;
+    -webkit-box-shadow: 0px 0px 5px #000;
+}
+#nav-menu li>ul li a {
+    background:url(http://img252.imageshack.us/img252/2302/level1back.png);
+    background-position:144px;
+    transition:background-position .25s ease;
+    -webkit-transition:background-position .25s ease;
+    -moz-transition:background-position .25s ease;
+}
+#nav-menu li>ul li a:hover {
+    color:#000;
+    background-position:0px;
+    transition:background-position .25s ease;
+    -webkit-transition:background-position .25s ease;
+    -moz-transition:background-position .25s ease;
+    -moz-box-shadow:inset 0 0 2px #000000;
+    -webkit-box-shadow:inset 0 0 2px #000000;
+    box-shadow:inset 0 0 2px #000000;
+}
+/*end menu bar css*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Css Coding*/
+/*Begin 960 coding*/
 body{
 	
 	min-width: 960px;
