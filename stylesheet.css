@@ -1,3 +1,4 @@
+
 *{
 	border: 1px dashed black
 
@@ -75,3 +76,8 @@
 	}
 				
  /*______End Menu Bar______*/
+
+/* ______Pic-1______*/
+#Pic-1{
+       border:thin 2px red; 
+       }
