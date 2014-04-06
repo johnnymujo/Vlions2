@@ -1,15 +1,15 @@
 /* Begin Css coding*/
 .Backborder{
             margin: 0 auto;
-            background: #BBFFFF;
-            width: 960px;
-            height: 960px;  
-            -webkit-border-top-left-radius: 100px;
-            -moz-border-radius-topleft: 100px;
-            border-top-left-radius: 100px;
+            background-origin::#FF7A3BF;
+            width: 1000px;
+            height:100px;
+            -webkit-border-top-left-radius: 200px;
+            -moz-border-radius-topleft: 200px;
+            border-top-left-radius: 200px;
  }
 #header_1{
-        margin-right:auto;
+        margin-right: auto;
         color: #63B8FF;
         
  }
@@ -23,7 +23,7 @@
 #nav-menu li {
     float: left;
     margin: 0 0;
-    position:relative;
+    position: relative;
 }
 #nav-menu ul li a {
     background-image:url(http://img411.imageshack.us/img411/9527/backdr.png);
@@ -34,7 +34,7 @@
     width: 144px;
     display: block;
     text-align:center;
-    border:2px solid #000;
+    border:1px solid #000;
     border-right:none;
     text-decoration:none;
     transition:background-position .25s ease;
@@ -49,11 +49,12 @@
     -moz-transition:background-position .25s ease;
 }
 #nav-menu {
-    display:inline-block;
+    display: inline-block;
 }
 #header {
     width:100%;
     text-align:center;
+    margin-left:auto;
 }
 #last-item {
     border-right:4px solid #000;
@@ -512,3 +513,4 @@ body{
 	zoom: 1;
 
 }
+
